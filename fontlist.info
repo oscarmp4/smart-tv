@@ -1,0 +1,12 @@
+######################################################
+#
+#
+#       Maple Font List File
+#
+#
+#####################################################
+Font List
+	OpenSemi   : OpenSans-Semibold.ttf
+	OpenReg    : OpenSans-Regular.ttf : default
+	RobotoBold : RobotoSlab-Bold.ttf
+	RobotoThin : RobotoSlab-Thin.ttf

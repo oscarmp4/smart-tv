@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>smartJS</title>
+		
+		<!-- TODO : Common API -->
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+
+		<!-- TODO : Javascript code -->
+		<script language="javascript" type="text/javascript" src="app/javascript/jquery1.11.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Main.js"></script>
+		
+		<!-- TODO : Style sheets code -->
+		<link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
+
+		<!-- TODO: Plugins -->
+
+	</head>
+
+	<body onload="Main.onLoad();" onunload="Main.onUnload();">
+
+		<!-- TODO: your code here -->
+		<div id="page">
+			<header class="b-header">
+				<h1 class="b-header__logo">Smart TV app</h1>
+				<div class="l-menu">
+					<nav class="b-menu">
+						<ul class="b-menuList">
+							<li class="b-menuItem"><a href="javascript:void(0);" onkeydown="Main.keyDown()" class="b-menuItem__link">Home</a></li>
+							<li class="b-menuItem"><a href="javascript:void(0);" onkeydown="Main.keyDown()" class="b-menuItem__link">Video</a></li>
+							<li class="b-menuItem"><a href="javascript:void(0);" onkeydown="Main.keyDown()" class="b-menuItem__link">Music</a></li>
+							<li class="b-menuItem"><a href="javascript:void(0);" onkeydown="Main.keyDown()" class="b-menuItem__link">Gallery</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<div class="b-content">
+			</div>
+		</div>
+	</body>
+</html>
